@@ -124,7 +124,7 @@ async function main() {
   // convert to JSON and save
   const json = JSON.stringify(charityDetailList);
   var fs = require("fs");
-  fs.writeFile("charityDetails.json", json, "utf8", function (err) {
+  fs.writeFile("charityDetailList.json", json, "utf8", function (err) {
     if (err) return console.log(err);
     console.log("Successful save.");
   });
