@@ -1,17 +1,18 @@
 const nameList = require("../stage-1/charityName.json");
 const puppeteer = require("puppeteer");
-// import nameList from "./charityName.json";
 
 (async () => {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
   let charityUrl = [];
+  //loop through all the chairy name
   for (let i = 0; i < nameList.length; i++) {
     await page.goto(
       "https://register-of-charities.charitycommission.gov.uk/charity-search/-/results/page/1/delta/20/keywords/" +
         nameList[i]
     );
+    //get the URL from the govt website
     const name = await page.evaluate(() => {
       const tag = document.querySelector(".govuk-table__row td a");
       try {
@@ -24,7 +25,7 @@ const puppeteer = require("puppeteer");
   }
 
   console.log(charityUrl);
-
+  //compare the govt website with the YouGov website to see whether they have the same name
   const newCharityUrl = charityUrl.map((char, index) => {
     console.log(index, " index");
     if (char.name == nameList[index].toUpperCase()) {
@@ -49,5 +50,3 @@ const puppeteer = require("puppeteer");
     }
   );
 })();
-
-//https://register-of-charities.charitycommission.gov.uk/charity-search/-/results/page/1/delta/20/keywords/
