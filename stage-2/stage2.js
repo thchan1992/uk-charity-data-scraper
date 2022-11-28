@@ -1,4 +1,4 @@
-const nameList = require("../stage-1/charityName.json");
+const nameList = require("../stage-1/charityNameList.json");
 const puppeteer = require("puppeteer");
 
 (async () => {
@@ -38,6 +38,8 @@ const puppeteer = require("puppeteer");
   });
 
   console.log(newCharityUrl);
+
+  browser.close();
 
   var fs = require("fs");
   fs.writeFile(
