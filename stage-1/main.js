@@ -53,10 +53,11 @@ async function autoScroll(page) {
   nameList = spanEle.map((obj) => {
     return obj.split(/\r?\n|\r|\n/g)[1];
   });
+  browser.close();
   console.log(nameList);
   //write that on the json file
   var fs = require("fs");
-  fs.writeFile("charityName.Json", JSON.stringify(nameList), function (err) {
+  fs.writeFile("charityNameList.json", JSON.stringify(nameList), function (err) {
     if (err) {
       console.log(err);
     }
