@@ -1,48 +1,98 @@
-const puppeteer = require("puppeteer");
+const puppeteer = require("puppeteer-extra");
+const hidden = require("puppeteer-extra-plugin-stealth");
+
+const StealthPlugin = require("puppeteer-extra-plugin-stealth");
+puppeteer.use(StealthPlugin());
+
+const { executablePath } = require("puppeteer");
 
 const urlList = require("../stage-2/charityUrl.json");
 
-const { scrapCharityByUrl } = require("./scrapCharityByUrl.js");
+const { dataMap } = require("./dataMap.js");
 
 async function main() {
-  // // step 1: initialise list
-  // const charityDetailList = [];
+  const charityDetailList = [];
 
-  // // step 2: scrap charity with dedicated function
-  // for (let i = 0; i < urlList.length; i++) {
-  //   const url = urlList[i];
-  //   if (url.substring(0, 4) !== "http") continue;
-  //   // #TODO: scrapCharityByUrl
-  // }
+  // puppeteer setup
+  puppeteer.use(hidden());
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox"],
+    headless: false,
+    ignoreHTTPSErrors: true,
+    executablePath: executablePath(),
+  });
+  const page = await browser.newPage();
 
-  // // step 3: convert to JSON and save
-  // const json = JSON.stringify(charityDetailList);
-  // var fs = require("fs");
-  // fs.writeFile("charityDetails.json", json, "utf8", function (err) {
-  //   if (err) return console.log(err);
-  //   console.log("Successful save.");
-  // });
+  for (let i = 0; i < urlList.length; i++) {
+    const url = urlList[i];
+    // making sure entry is a http
+    if (url.substring(0, 4) !== "http") continue;
 
-  //
-  // BELOW
-  //
+    await page.goto(url);
 
-  const res1 = await scrapCharityByUrl(
-    "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3968381"
-  );
-  const res2 = await scrapCharityByUrl(
-    "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/284934"
-  );
-  const res3 = await scrapCharityByUrl(
-    "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3987102"
-  );
-  console.log({
-    res1,
-    res2,
-    res3
+    let data = Object.assign({}, dataMap);
+
+    for (var key in data) {
+      // creating shorthand var and destructing for eased access
+      let obj = data[key];
+      let { siteXPath } = obj;
+
+      try {
+        // retreiving content
+        var chan = siteXPath;
+        let retrieved = await page.evaluate((chan) => {
+          return document.evaluate(
+            chan,
+            document,
+            null,
+            XPathResult.FIRST_ORDERED_NODE_TYPE,
+            null
+          ).singleNodeValue.innerText;
+        }, chan);
+
+        // format and clean
+        const formatted = retrieved.replace(/  |\r\n|\n|\t|\r/gm, "");
+        var processed = formatted;
+        if (obj.hasOwnProperty("operations")) {
+          obj["preprocessed"] = formatted;
+          obj["operations"].forEach((func) => {
+            processed = func(processed);
+          });
+        }
+
+        // set obj value
+        obj["value"] = processed;
+      } catch (err) {
+        console.log("");
+        console.error("Issue url: " + url);
+        console.error("Issue key: " + key);
+        console.error("Issue err: " + err);
+        console.log("");
+        obj["value"] = null;
+      }
+    }
+
+    // duplication of object
+    charityDetailList.push(JSON.parse(JSON.stringify(data)));
+  }
+
+  browser.close();
+
+  // removing unnecessary key/values
+  charityDetailList.forEach((item) => {
+    for (var key in item) {
+      delete item[key]["siteXPath"];
+      delete item[key]["operations"];
+    }
   });
 
-  // console.log(res1);
+  // convert to JSON and save
+  const json = JSON.stringify(charityDetailList);
+  var fs = require("fs");
+  fs.writeFile("charityDetails.json", json, "utf8", function (err) {
+    if (err) return console.log(err);
+    console.log("Successful save.");
+  });
 }
 
 main();
