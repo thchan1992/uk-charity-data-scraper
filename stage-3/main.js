@@ -10,8 +10,41 @@ const urlList = require("../stage-2/charityUrl.json");
 
 const { dataMap } = require("./dataMap.js");
 
+const waitForDOMStable = (
+  page,
+  options={timeout: 30000, idleTime: 2000}
+) =>
+  page.evaluate(({timeout, idleTime}) =>
+    new Promise((resolve, reject) => {
+      setTimeout(() => {
+        observer.disconnect();
+        const msg = `timeout of ${timeout} ms ` +
+          "exceeded waiting for DOM to stabilize";
+        reject(Error(msg));
+      }, timeout);
+      const observer = new MutationObserver(() => {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(finish, idleTime);
+      });
+      const config = {
+        attributes: true,
+        childList: true,
+        subtree: true
+      };
+      observer.observe(document.body, config);
+      const finish = () => {
+        observer.disconnect();
+        resolve();
+      };
+      let timeoutId = setTimeout(finish, idleTime);
+    }),
+    options
+  )
+;
+
 async function main() {
   const charityDetailList = [];
+  const errorList = [];
 
   // puppeteer setup
   puppeteer.use(hidden());
@@ -28,7 +61,8 @@ async function main() {
     // making sure entry is a http
     if (url.substring(0, 4) !== "http") continue;
 
-    await page.goto(url);
+    await page.goto(url, { waitUntil: "domcontentloaded" });
+    await waitForDOMStable(page);
 
     let data = Object.assign({}, dataMap);
 
@@ -68,6 +102,7 @@ async function main() {
         console.error("Issue key: " + key);
         console.error("Issue err: " + err);
         console.log("");
+        errorList.push(key.toString());
         obj["value"] = null;
       }
     }
@@ -93,6 +128,14 @@ async function main() {
     if (err) return console.log(err);
     console.log("Successful save.");
   });
+
+  // display breakdown of error list
+  const errorCounts = {};
+  for (const num of errorList) {
+    errorCounts[num] = errorCounts[num] ? errorCounts[num] + 1 : 1;
+  }
+  console.log("Error and their occurance:");
+  console.log(errorCounts);
 }
 
 main();
