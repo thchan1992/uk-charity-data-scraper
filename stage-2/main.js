@@ -41,7 +41,7 @@ const puppeteer = require("puppeteer");
 
   var fs = require("fs");
   fs.writeFile(
-    "charityUrl.Json",
+    "charityUrlList.json",
     JSON.stringify(newCharityUrl),
     function (err) {
       if (err) {
