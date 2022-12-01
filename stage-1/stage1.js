@@ -54,7 +54,7 @@ async function autoScroll(page) {
     return obj.split(/\r?\n|\r|\n/g)[1];
   });
   browser.close();
-  console.log(nameList);
+  // console.log(nameList);
   //write that on the json file
   var fs = require("fs");
   fs.writeFile("charityNameList.json", JSON.stringify(nameList), function (err) {
