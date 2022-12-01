@@ -6,7 +6,7 @@ puppeteer.use(StealthPlugin());
 
 const { executablePath } = require("puppeteer");
 
-const urlList = require("../stage-2/charityUrl.json");
+const urlList = require("../stage-2/charityUrlList.json");
 
 const { dataMap } = require("./dataMap.js");
 
@@ -109,6 +109,7 @@ async function main() {
 
     // duplication of object
     charityDetailList.push(JSON.parse(JSON.stringify(data)));
+    console.log(`${((i/urlList.length)*100).toFixed(0)}%`);
   }
 
   browser.close();

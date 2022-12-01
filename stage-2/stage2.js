@@ -22,12 +22,13 @@ const puppeteer = require("puppeteer");
       }
     });
     charityUrl.push(name);
+    console.log(`${((i/nameList.length)*100).toFixed(0)}%`);
   }
 
-  console.log(charityUrl);
+  // console.log(charityUrl);
   //compare the govt website with the YouGov website to see whether they have the same name
   const newCharityUrl = charityUrl.map((char, index) => {
-    console.log(index, " index");
+    // console.log(index, " index");
     if (char.name == nameList[index].toUpperCase()) {
       return char.url;
     } else if (char.name == "no result") {
@@ -37,7 +38,7 @@ const puppeteer = require("puppeteer");
     }
   });
 
-  console.log(newCharityUrl);
+  // console.log(newCharityUrl);
 
   browser.close();
 
