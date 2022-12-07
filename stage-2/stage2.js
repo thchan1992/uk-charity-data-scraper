@@ -5,9 +5,8 @@ const puppeteer = require("puppeteer");
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
-  let charityUrl = [];
+  let urlList = [];
   let i = 0;
-
   //loop through all the chairy name
   for (i; i < nameList.length; i++) {
     await page.goto(
@@ -15,81 +14,47 @@ const puppeteer = require("puppeteer");
         nameList[i]
     );
     //get the URL from the govt website
-    const name = await page.evaluate(
+    const res = await page.evaluate(
       (nameList, i) => {
-        const tagList = Array.from(
-          document.querySelectorAll(".govuk-table__row td a")
+        let curRes = [];
+        const tagList = Array.prototype.slice.call(
+          document.querySelectorAll(".govuk-table__row td a"),
+          0,
+          5
         );
-        let urlList = [];
+        //inside the website
         for (let x = 0; x < 5; x++) {
           try {
-            urlList.push(tagList[x].getAttribute("href"));
+            curRes.push({
+              charityUrl: tagList[x].getAttribute("href"),
+              charityName: tagList[x].innerText,
+              success: true,
+              searchTerm: nameList[i],
+            });
           } catch (err) {
-            urlList = null;
+            curRes.push({
+              charityUrl: null,
+              charityName: null,
+              searchTerm: nameList[i],
+              success: false,
+            });
             break;
           }
         }
-
-        let charityNameList = [];
-        for (let x = 0; x < 5; x++) {
-          try {
-            charityNameList.push(tagList[x].innerText);
-          } catch (err) {
-            charityNameList = null;
-            break;
-          }
-        }
-
-        return {
-          charityUrl: urlList,
-          charityName: charityNameList,
-          searchTerm: nameList[i],
-          success: false,
-        };
+        return curRes;
       },
       nameList,
       i
     );
-    charityUrl.push(name);
-    console.log(`${((i / nameList.length) * 100).toFixed(0)}%`);
+    urlList.push(res);
   }
-
-  console.log(charityUrl);
-  //   //compare the govt website with the YouGov website to see whether they have the same name
-  charityUrl.forEach((char, index) => {
-    // console.log(index, " index");
-
-    try {
-      // if (char.charityName[0] == nameList[index].toUpperCase()) {
-      //   char.success = true;
-      // } else {
-      //   char.success = false;
-      // }
-      char.charityName.forEach((name) => {
-        if (name == nameList[index].toUpperCase()) {
-          char.success = true;
-        }
-      });
-    } catch (err) {
-      char.success = false;
-    }
-    // if (char.charityName[0] == nameList[index].toUpperCase()) {
-    //   char.success = true;
-    // } else if (char.charityName == null) {
-    //   char.success = false;
-    // } else {
-    //   char.success = false;
-    // }
-  });
-
-  // console.log(newCharityUrl);
 
   browser.close();
 
   var fs = require("fs");
   fs.writeFile(
     "charityUrlList.json",
-    JSON.stringify(charityUrl),
+    JSON.stringify(urlList.flat()),
     function (err) {
       if (err) {
         console.log(err);
