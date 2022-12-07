@@ -47,6 +47,7 @@ const puppeteer = require("puppeteer");
       i
     );
     urlList.push(res);
+    console.log(`${((i / nameList.length) * 100).toFixed(0)}%`);
   }
 
   browser.close();
