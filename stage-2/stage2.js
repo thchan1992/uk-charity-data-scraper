@@ -5,47 +5,57 @@ const puppeteer = require("puppeteer");
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
 
-  let charityUrl = [];
+  let urlList = [];
+  let i = 0;
   //loop through all the chairy name
-  for (let i = 0; i < nameList.length; i++) {
+  for (i; i < nameList.length; i++) {
     await page.goto(
       "https://register-of-charities.charitycommission.gov.uk/charity-search/-/results/page/1/delta/20/keywords/" +
         nameList[i]
     );
     //get the URL from the govt website
-    const name = await page.evaluate(() => {
-      const tag = document.querySelector(".govuk-table__row td a");
-      try {
-        return { url: tag.getAttribute("href"), name: tag.innerText };
-      } catch (err) {
-        return { url: "no result", name: "no result" };
-      }
-    });
-    charityUrl.push(name);
-    console.log(`${((i/nameList.length)*100).toFixed(0)}%`);
+    const res = await page.evaluate(
+      (nameList, i) => {
+        let curRes = [];
+        const tagList = Array.prototype.slice.call(
+          document.querySelectorAll(".govuk-table__row td a"),
+          0,
+          5
+        );
+        //inside the website
+        for (let x = 0; x < 5; x++) {
+          try {
+            curRes.push({
+              charityUrl: tagList[x].getAttribute("href"),
+              charityName: tagList[x].innerText,
+              success: true,
+              searchTerm: nameList[i],
+            });
+          } catch (err) {
+            curRes.push({
+              charityUrl: null,
+              charityName: null,
+              searchTerm: nameList[i],
+              success: false,
+            });
+            break;
+          }
+        }
+        return curRes;
+      },
+      nameList,
+      i
+    );
+    urlList.push(res);
+    console.log(`${((i / nameList.length) * 100).toFixed(0)}%`);
   }
-
-  // console.log(charityUrl);
-  //compare the govt website with the YouGov website to see whether they have the same name
-  const newCharityUrl = charityUrl.map((char, index) => {
-    // console.log(index, " index");
-    if (char.name == nameList[index].toUpperCase()) {
-      return char.url;
-    } else if (char.name == "no result") {
-      return nameList[index] + " - no result";
-    } else {
-      return char.name + " - name not match";
-    }
-  });
-
-  // console.log(newCharityUrl);
 
   browser.close();
 
   var fs = require("fs");
   fs.writeFile(
     "charityUrlList.json",
-    JSON.stringify(newCharityUrl),
+    JSON.stringify(urlList.flat()),
     function (err) {
       if (err) {
         console.log(err);
