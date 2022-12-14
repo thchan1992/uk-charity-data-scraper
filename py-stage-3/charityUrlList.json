@@ -27,12 +27,12 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5038273",
     "charityName": "MRS J M PALMER-MOREWOOD CHARITABLE TRUST",
     "success": true,
-    "searchTerm": "Cancer Research UK"
+    "searchTerm": "RNIB"
   },
   {
     "charityUrl": null,
     "charityName": null,
-    "searchTerm": "St. John Ambulance",
+    "searchTerm": "Bloodwise",
     "success": false
   },
   {
@@ -69,7 +69,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/220949",
     "charityName": "THE BRITISH RED CROSS SOCIETY",
     "success": true,
-    "searchTerm": "British Red Cross"
+    "searchTerm": "British Muslims for Secular Democracy"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5107216",
@@ -87,7 +87,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4022028",
     "charityName": "THE HERD LAWSON AND MURIEL LAWSON CHARITABLE TRUST",
     "success": true,
-    "searchTerm": "British Red Cross"
+    "searchTerm": "WWF"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3970903",
@@ -219,7 +219,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3964458",
     "charityName": "ALZHEIMER'S RESEARCH UK",
     "success": true,
-    "searchTerm": "Alzheimer's Research UK"
+    "searchTerm": "Alzheimer's Association"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/281943",
@@ -231,31 +231,31 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3957327",
     "charityName": "ALZHEIMER'S FOUNDATION FOR RESEARCH INTO ALZHEIMER'S DISEASE.",
     "success": true,
-    "searchTerm": "Alzheimer's Research UK"
+    "searchTerm": "Alzheimer's Association"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3960180",
     "charityName": "CAMPAIGN FOR ALZHEIMER'S RESEARCH IN EUROPE",
     "success": true,
-    "searchTerm": "Alzheimer's Research UK"
+    "searchTerm": "Alzheimer's Association"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/296645",
     "charityName": "ALZHEIMER'S SOCIETY",
     "success": true,
-    "searchTerm": "Alzheimer's Research UK"
+    "searchTerm": "Alzheimer's Association"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/206394",
     "charityName": "BATTERSEA DOGS' AND CATS' HOME",
     "success": true,
-    "searchTerm": "Battersea Dogs and Cats Home"
+    "searchTerm": "Dogs Trust"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4042832",
     "charityName": "GABLES FARM DOGS AND CATS HOME",
     "success": true,
-    "searchTerm": "Battersea Dogs and Cats Home"
+    "searchTerm": "Cats Protection"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/284424",
@@ -276,32 +276,8 @@
     "searchTerm": "Battersea Dogs and Cats Home"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/296645",
-    "charityName": "ALZHEIMER'S SOCIETY",
-    "success": true,
-    "searchTerm": "Alzheimer's Society"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4030597",
     "charityName": "WILLIAM SCOTT FOUNDATION",
-    "success": true,
-    "searchTerm": "Alzheimer's Society"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3957327",
-    "charityName": "ALZHEIMER'S FOUNDATION FOR RESEARCH INTO ALZHEIMER'S DISEASE.",
-    "success": true,
-    "searchTerm": "Alzheimer's Society"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3964458",
-    "charityName": "ALZHEIMER'S RESEARCH UK",
-    "success": true,
-    "searchTerm": "Alzheimer's Society"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3960180",
-    "charityName": "CAMPAIGN FOR ALZHEIMER'S RESEARCH IN EUROPE",
     "success": true,
     "searchTerm": "Alzheimer's Society"
   },
@@ -342,22 +318,10 @@
     "searchTerm": "WWF"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4022028",
-    "charityName": "THE HERD LAWSON AND MURIEL LAWSON CHARITABLE TRUST",
-    "success": true,
-    "searchTerm": "WWF"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5017504",
     "charityName": "THE WILF WARD FAMILY TRUST",
     "success": true,
     "searchTerm": "WWF"
-  },
-  {
-    "charityUrl": null,
-    "charityName": null,
-    "searchTerm": "WWF",
-    "success": false
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4014979",
@@ -429,7 +393,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/801583",
     "charityName": "THE COMPASS DOGS TRUST",
     "success": true,
-    "searchTerm": "Guide Dogs"
+    "searchTerm": "Dogs Trust"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5125332",
@@ -478,12 +442,6 @@
     "charityName": "OXFORDSHIRE PROSTATE CANCER SUPPORT GROUP",
     "success": true,
     "searchTerm": "Prostate Cancer UK"
-  },
-  {
-    "charityUrl": null,
-    "charityName": null,
-    "searchTerm": "Barnardo's",
-    "success": false
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3941544",
@@ -585,25 +543,25 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1021367",
     "charityName": "Air Ambulance Charity Kent Surrey Sussex",
     "success": true,
-    "searchTerm": "London's Air Ambulance"
+    "searchTerm": "Midlands Air Ambulance"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3974774",
     "charityName": "YORKSHIRE AIR AMBULANCE LIMITED",
     "success": true,
-    "searchTerm": "London's Air Ambulance"
+    "searchTerm": "Midlands Air Ambulance"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/299000",
     "charityName": "FIRST AIR AMBULANCE SERVICE TRUST (FAAST)",
     "success": true,
-    "searchTerm": "London's Air Ambulance"
+    "searchTerm": "Midlands Air Ambulance"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1017501",
     "charityName": "THE LINCOLNSHIRE AND NOTTINGHAMSHIRE AIR AMBULANCE CHARITABLE TRUST",
     "success": true,
-    "searchTerm": "London's Air Ambulance"
+    "searchTerm": "Midlands Air Ambulance"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/207076",
@@ -627,7 +585,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3035725",
     "charityName": "THE SUNRISE (SIDMOUTH) CHARITABLE TRUST",
     "success": true,
-    "searchTerm": "RSPB"
+    "searchTerm": "PDSA"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/271033",
@@ -735,7 +693,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1055428",
     "charityName": "International Friends of the National Gallery of Ireland",
     "success": true,
-    "searchTerm": "National Trust"
+    "searchTerm": "National Trust for Scotland"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3987395",
@@ -747,7 +705,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/205846",
     "charityName": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
     "success": true,
-    "searchTerm": "National Trust"
+    "searchTerm": "National Trust for Scotland"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/224223",
@@ -768,28 +726,10 @@
     "searchTerm": "Dogs Trust"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4042832",
-    "charityName": "GABLES FARM DOGS AND CATS HOME",
-    "success": true,
-    "searchTerm": "Dogs Trust"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/206394",
-    "charityName": "BATTERSEA DOGS' AND CATS' HOME",
-    "success": true,
-    "searchTerm": "Dogs Trust"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/801583",
-    "charityName": "THE COMPASS DOGS TRUST",
-    "success": true,
-    "searchTerm": "Dogs Trust"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1003688",
     "charityName": "COVENTRY AND WARWICKSHIRE MIND",
     "success": true,
-    "searchTerm": "Mind"
+    "searchTerm": "Forces in Mind"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3074678",
@@ -972,30 +912,6 @@
     "searchTerm": "Alzheimer's Association"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3957327",
-    "charityName": "ALZHEIMER'S FOUNDATION FOR RESEARCH INTO ALZHEIMER'S DISEASE.",
-    "success": true,
-    "searchTerm": "Alzheimer's Association"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/296645",
-    "charityName": "ALZHEIMER'S SOCIETY",
-    "success": true,
-    "searchTerm": "Alzheimer's Association"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3964458",
-    "charityName": "ALZHEIMER'S RESEARCH UK",
-    "success": true,
-    "searchTerm": "Alzheimer's Association"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3960180",
-    "charityName": "CAMPAIGN FOR ALZHEIMER'S RESEARCH IN EUROPE",
-    "success": true,
-    "searchTerm": "Alzheimer's Association"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1043886",
     "charityName": "THE FAIRTRADE FOUNDATION",
     "success": true,
@@ -1014,14 +930,14 @@
     "searchTerm": "The Fairtrade Foundation"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5129865",
-    "charityName": "ST OLAVE'S & ST SAVIOUR'S SCHOOLS FOUNDATION CIO",
+    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/311055",
+    "charityName": "FOUNDATION OF RICHARD PLATT",
     "success": true,
     "searchTerm": "The Fairtrade Foundation"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/311055",
-    "charityName": "FOUNDATION OF RICHARD PLATT",
+    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5129865",
+    "charityName": "ST OLAVE'S & ST SAVIOUR'S SCHOOLS FOUNDATION CIO",
     "success": true,
     "searchTerm": "The Fairtrade Foundation"
   },
@@ -1125,7 +1041,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1005150",
     "charityName": "DALGETY CHARITABLE TRUST",
     "success": true,
-    "searchTerm": "UNICEF"
+    "searchTerm": "The Children's Society"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/265127",
@@ -1230,12 +1146,6 @@
     "searchTerm": "RNIB"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5038273",
-    "charityName": "MRS J M PALMER-MOREWOOD CHARITABLE TRUST",
-    "success": true,
-    "searchTerm": "RNIB"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5097239",
     "charityName": "CITY OF CHELMSFORD MENCAP",
     "success": true,
@@ -1266,14 +1176,14 @@
     "searchTerm": "Mencap"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4043044",
-    "charityName": "PRINCES RISBOROUGH PRIMARY SCHOOL FUND",
+    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5027865",
+    "charityName": "PRINCES RISBOROUGH CENTRE LTD",
     "success": true,
     "searchTerm": "Princes Trust"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5027865",
-    "charityName": "PRINCES RISBOROUGH CENTRE LTD",
+    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4043044",
+    "charityName": "PRINCES RISBOROUGH PRIMARY SCHOOL FUND",
     "success": true,
     "searchTerm": "Princes Trust"
   },
@@ -1311,13 +1221,13 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5101519",
     "charityName": "CFD (CENTRE FOR DEAF AND HARD OF HEARING PEOPLE)",
     "success": true,
-    "searchTerm": "Hearing Dogs for Deaf People"
+    "searchTerm": "Hearing Link"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/218341",
     "charityName": "CORNWALL ASSOCIATION FOR DEAF AND HARD OF HEARING PEOPLE",
     "success": true,
-    "searchTerm": "Hearing Dogs for Deaf People"
+    "searchTerm": "Hearing Link"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1035893",
@@ -1488,12 +1398,6 @@
     "searchTerm": "PDSA"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3035725",
-    "charityName": "THE SUNRISE (SIDMOUTH) CHARITABLE TRUST",
-    "success": true,
-    "searchTerm": "PDSA"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4047369",
     "charityName": "THE CHATTELL CHARITABLE WILL TRUST",
     "success": true,
@@ -1515,7 +1419,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/260060",
     "charityName": "THE MAISIE LEWIS LECTURESHIP",
     "success": true,
-    "searchTerm": "Arthritis Research UK"
+    "searchTerm": "Terrence Higgins Trust"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5041190",
@@ -1587,13 +1491,13 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/293625",
     "charityName": "HARROW & PINNER LIONS CLUB CHARITY TRUST FUND",
     "success": true,
-    "searchTerm": "WaterAid"
+    "searchTerm": "Sightsavers"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5157587",
     "charityName": "HARROW & PINNER LIONS CLUB (CIO)",
     "success": true,
-    "searchTerm": "WaterAid"
+    "searchTerm": "Sightsavers"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5011629",
@@ -1608,38 +1512,8 @@
     "searchTerm": "Movember"
   },
   {
-    "charityUrl": null,
-    "charityName": null,
-    "searchTerm": "Movember",
-    "success": false
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5019996",
     "charityName": "MIDLANDS AIR AMBULANCE CHARITY",
-    "success": true,
-    "searchTerm": "Midlands Air Ambulance"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1021367",
-    "charityName": "Air Ambulance Charity Kent Surrey Sussex",
-    "success": true,
-    "searchTerm": "Midlands Air Ambulance"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3974774",
-    "charityName": "YORKSHIRE AIR AMBULANCE LIMITED",
-    "success": true,
-    "searchTerm": "Midlands Air Ambulance"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/299000",
-    "charityName": "FIRST AIR AMBULANCE SERVICE TRUST (FAAST)",
-    "success": true,
-    "searchTerm": "Midlands Air Ambulance"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1017501",
-    "charityName": "THE LINCOLNSHIRE AND NOTTINGHAMSHIRE AIR AMBULANCE CHARITABLE TRUST",
     "success": true,
     "searchTerm": "Midlands Air Ambulance"
   },
@@ -1662,16 +1536,22 @@
     "searchTerm": "Breast Cancer Now"
   },
   {
+    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5103117",
+    "charityName": "BREAST CANCER KENT",
+    "success": true,
+    "searchTerm": "Breast Cancer Now"
+  },
+  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1020967",
     "charityName": "AGAINST BREAST CANCER",
     "success": true,
     "searchTerm": "Breast Cancer Now"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5103117",
-    "charityName": "BREAST CANCER KENT",
+    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/291850",
+    "charityName": "THE SOMERSET COURT AUTISTIC TRUST",
     "success": true,
-    "searchTerm": "Breast Cancer Now"
+    "searchTerm": "The National Autistic Society"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/269425",
@@ -1694,12 +1574,6 @@
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5042932",
     "charityName": "THE JOHN AND LORNA WING FOUNDATION",
-    "success": true,
-    "searchTerm": "The National Autistic Society"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3958591",
-    "charityName": "BERKSHIRE AUTISTIC SOCIETY",
     "success": true,
     "searchTerm": "The National Autistic Society"
   },
@@ -1737,7 +1611,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4012893",
     "charityName": "CLIC SARGENT CANCER CARE FOR CHILDREN",
     "success": true,
-    "searchTerm": "Young Lives vs Cancer"
+    "searchTerm": "CLIC Sargent"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5190649",
@@ -1875,7 +1749,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/298473",
     "charityName": "2 WHEEL APPEAL",
     "success": true,
-    "searchTerm": "Amnesty International"
+    "searchTerm": "ActionAid"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/327451",
@@ -1932,12 +1806,6 @@
     "searchTerm": "Cats Protection"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4042832",
-    "charityName": "GABLES FARM DOGS AND CATS HOME",
-    "success": true,
-    "searchTerm": "Cats Protection"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1042283",
     "charityName": "NUNEATON AND HINCKLEY CATS IN NEED",
     "success": true,
@@ -1959,7 +1827,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/208530",
     "charityName": "ANGLO-ITALIAN SOCIETY FOR THE PROTECTION OF ANIMALS",
     "success": true,
-    "searchTerm": "The Blue Cross"
+    "searchTerm": "World Society for the Protection of Animals"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5161081",
@@ -2038,12 +1906,6 @@
     "charityName": "GREENPEACE ENVIRONMENTAL TRUST",
     "success": true,
     "searchTerm": "Greenpeace"
-  },
-  {
-    "charityUrl": null,
-    "charityName": null,
-    "searchTerm": "Greenpeace",
-    "success": false
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/258003",
@@ -2160,12 +2022,6 @@
     "searchTerm": "The Children's Society"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1005150",
-    "charityName": "DALGETY CHARITABLE TRUST",
-    "success": true,
-    "searchTerm": "The Children's Society"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3956536",
     "charityName": "LEEDS SURVIVOR LED CRISIS SERVICES",
     "success": true,
@@ -2175,7 +2031,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5045372",
     "charityName": "NORTHAMPTONSHIRE RAPE CRISIS (NRC)",
     "success": true,
-    "searchTerm": "Crisis"
+    "searchTerm": "Rape Crisis England and Wales"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5091018",
@@ -2193,19 +2049,13 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3102885",
     "charityName": "LEICESTER RAPE CRISIS LIMITED",
     "success": true,
-    "searchTerm": "Crisis"
+    "searchTerm": "Rape Crisis England and Wales"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3986661",
     "charityName": "THE DRINKAWARE TRUST",
     "success": true,
     "searchTerm": "Drinkaware"
-  },
-  {
-    "charityUrl": null,
-    "charityName": null,
-    "searchTerm": "Drinkaware",
-    "success": false
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5050257",
@@ -2286,18 +2136,6 @@
     "searchTerm": "National Trust for Scotland"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/205846",
-    "charityName": "THE NATIONAL TRUST FOR PLACES OF HISTORIC INTEREST OR NATURAL BEAUTY",
-    "success": true,
-    "searchTerm": "National Trust for Scotland"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1055428",
-    "charityName": "International Friends of the National Gallery of Ireland",
-    "success": true,
-    "searchTerm": "National Trust for Scotland"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3973505",
     "charityName": "WORLD ANIMAL PROTECTION",
     "success": true,
@@ -2307,7 +2145,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4008510",
     "charityName": "THE CAPTIVE ANIMALS' PROTECTION TRUST",
     "success": true,
-    "searchTerm": "World Society for the Protection of Animals"
+    "searchTerm": "Wood Green, The Animals Charity"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/209015",
@@ -2316,16 +2154,10 @@
     "searchTerm": "World Society for the Protection of Animals"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/208530",
-    "charityName": "ANGLO-ITALIAN SOCIETY FOR THE PROTECTION OF ANIMALS",
-    "success": true,
-    "searchTerm": "World Society for the Protection of Animals"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3030025",
     "charityName": "THE HOLISTIC TRUST FOR ANIMALS",
     "success": true,
-    "searchTerm": "World Society for the Protection of Animals"
+    "searchTerm": "Wood Green, The Animals Charity"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/221912",
@@ -2355,7 +2187,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4017223",
     "charityName": "THE TRUSSELL TRUST",
     "success": true,
-    "searchTerm": "The Trussell Trust"
+    "searchTerm": "The Trussell Trust Local Food Bank"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3990190",
@@ -2364,20 +2196,8 @@
     "searchTerm": "GambleAware"
   },
   {
-    "charityUrl": null,
-    "charityName": null,
-    "searchTerm": "GambleAware",
-    "success": false
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5046508",
     "charityName": "BATLEY FOOD BANK",
-    "success": true,
-    "searchTerm": "The Trussell Trust Local Food Bank"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4017223",
-    "charityName": "THE TRUSSELL TRUST",
     "success": true,
     "searchTerm": "The Trussell Trust Local Food Bank"
   },
@@ -2424,12 +2244,6 @@
     "searchTerm": "Terrence Higgins Trust"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/260060",
-    "charityName": "THE MAISIE LEWIS LECTURESHIP",
-    "success": true,
-    "searchTerm": "Terrence Higgins Trust"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5012169",
     "charityName": "BRAIN RESEARCH TRUST",
     "success": true,
@@ -2458,18 +2272,6 @@
     "charityName": "THE CIBC WORLD MARKETS CHILDREN'S FOUNDATION",
     "success": true,
     "searchTerm": "Children's Brain Tumor Research Foundation"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5045372",
-    "charityName": "NORTHAMPTONSHIRE RAPE CRISIS (NRC)",
-    "success": true,
-    "searchTerm": "Rape Crisis England and Wales"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3102885",
-    "charityName": "LEICESTER RAPE CRISIS LIMITED",
-    "success": true,
-    "searchTerm": "Rape Crisis England and Wales"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5042926",
@@ -2571,19 +2373,13 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5027653",
     "charityName": "RIGHTS OF WOMEN INCORPORATED",
     "success": true,
-    "searchTerm": "Abortion Rights"
+    "searchTerm": "Unite to End Violence Against Women"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5128449",
     "charityName": "ROBERT F. KENNEDY HUMAN RIGHTS UK LIMITED",
     "success": true,
     "searchTerm": "Abortion Rights"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4012893",
-    "charityName": "CLIC SARGENT CANCER CARE FOR CHILDREN",
-    "success": true,
-    "searchTerm": "CLIC Sargent"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5044122",
@@ -2652,12 +2448,6 @@
     "searchTerm": "Unite to End Violence Against Women"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5027653",
-    "charityName": "RIGHTS OF WOMEN INCORPORATED",
-    "success": true,
-    "searchTerm": "Unite to End Violence Against Women"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5046208",
     "charityName": "STAND AGAINST VIOLENCE",
     "success": true,
@@ -2667,7 +2457,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5078397",
     "charityName": "CENTRE FOR WOMEN'S JUSTICE",
     "success": true,
-    "searchTerm": "Unite to End Violence Against Women"
+    "searchTerm": "JUSTICE"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5027494",
@@ -2715,7 +2505,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5057395",
     "charityName": "JASKOMAL FOUNDATION",
     "success": true,
-    "searchTerm": "Anthony Nolan"
+    "searchTerm": "DKMS - We Delete Blood Cancer"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3993737",
@@ -2739,7 +2529,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170462",
     "charityName": "CLIMATE CHANGE ALL CHANGE",
     "success": true,
-    "searchTerm": "Campaign against Climate Change"
+    "searchTerm": "Stop Climate Chaos"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5062067",
@@ -2751,13 +2541,13 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4037664",
     "charityName": "CLIMATE OUTREACH AND INFORMATION NETWORK",
     "success": true,
-    "searchTerm": "Campaign against Climate Change"
+    "searchTerm": "Stop Climate Chaos"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5124765",
     "charityName": "CLIMATE GIVING",
     "success": true,
-    "searchTerm": "Campaign against Climate Change"
+    "searchTerm": "Stop Climate Chaos"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1056576",
@@ -2931,23 +2721,17 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5079132",
     "charityName": "Mosaic LGBT+ Young Persons' Trust",
     "success": true,
-    "searchTerm": "The LGBT Network"
+    "searchTerm": "LGBT Foundation"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5038879",
     "charityName": "LGBT OUT IN THE BAY",
     "success": true,
-    "searchTerm": "The LGBT Network"
+    "searchTerm": "LGBT Foundation"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/274467",
     "charityName": "ACTIONAID",
-    "success": true,
-    "searchTerm": "ActionAid"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/298473",
-    "charityName": "2 WHEEL APPEAL",
     "success": true,
     "searchTerm": "ActionAid"
   },
@@ -2962,12 +2746,6 @@
     "charityName": "DEDDINGTON WESLEYAN REFORM CHURCH",
     "success": true,
     "searchTerm": "ActionAid"
-  },
-  {
-    "charityUrl": null,
-    "charityName": null,
-    "searchTerm": "ActionAid",
-    "success": false
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1036733",
@@ -3006,18 +2784,6 @@
     "searchTerm": "LGBT Foundation"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5079132",
-    "charityName": "Mosaic LGBT+ Young Persons' Trust",
-    "success": true,
-    "searchTerm": "LGBT Foundation"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5038879",
-    "charityName": "LGBT OUT IN THE BAY",
-    "success": true,
-    "searchTerm": "LGBT Foundation"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5106564",
     "charityName": "INSPIRE LGBT",
     "success": true,
@@ -3044,18 +2810,6 @@
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4013577",
     "charityName": "MOBARAK ALI CHARITABLE TRUST",
-    "success": true,
-    "searchTerm": "Sightsavers"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/293625",
-    "charityName": "HARROW & PINNER LIONS CLUB CHARITY TRUST FUND",
-    "success": true,
-    "searchTerm": "Sightsavers"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5157587",
-    "charityName": "HARROW & PINNER LIONS CLUB (CIO)",
     "success": true,
     "searchTerm": "Sightsavers"
   },
@@ -3108,26 +2862,8 @@
     "searchTerm": "Wood Green, The Animals Charity"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3030025",
-    "charityName": "THE HOLISTIC TRUST FOR ANIMALS",
-    "success": true,
-    "searchTerm": "Wood Green, The Animals Charity"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4008510",
-    "charityName": "THE CAPTIVE ANIMALS' PROTECTION TRUST",
-    "success": true,
-    "searchTerm": "Wood Green, The Animals Charity"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/207720",
     "charityName": "THE ROYAL NATIONAL INSTITUTE FOR DEAF PEOPLE",
-    "success": true,
-    "searchTerm": "Action on Hearing Loss"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/218341",
-    "charityName": "CORNWALL ASSOCIATION FOR DEAF AND HARD OF HEARING PEOPLE",
     "success": true,
     "searchTerm": "Action on Hearing Loss"
   },
@@ -3147,7 +2883,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3940612",
     "charityName": "HERTFORDSHIRE HEARING ADVISORY SERVICE",
     "success": true,
-    "searchTerm": "Action on Hearing Loss"
+    "searchTerm": "Hearing Link"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4022989",
@@ -3177,7 +2913,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1045395",
     "charityName": "THE GREEN ALLIANCE TRUST",
     "success": true,
-    "searchTerm": "Countryside Alliance"
+    "searchTerm": "TaxPayers' Alliance"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/228567",
@@ -3459,7 +3195,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/216032",
     "charityName": "BLOODWISE",
     "success": true,
-    "searchTerm": "DKMS - We Delete Blood Cancer"
+    "searchTerm": "Bloodwise"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5062644",
@@ -3470,12 +3206,6 @@
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3082011",
     "charityName": "NHS BLOOD AND TRANSPLANT TRUST FUND",
-    "success": true,
-    "searchTerm": "DKMS - We Delete Blood Cancer"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5057395",
-    "charityName": "JASKOMAL FOUNDATION",
     "success": true,
     "searchTerm": "DKMS - We Delete Blood Cancer"
   },
@@ -3723,31 +3453,31 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4005358",
     "charityName": "OCD-UK",
     "success": true,
-    "searchTerm": "OCD-UK"
+    "searchTerm": "OCD Action"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5041412",
     "charityName": "OCD ACTION",
     "success": true,
-    "searchTerm": "OCD-UK"
+    "searchTerm": "OCD Action"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5098022",
     "charityName": "ORCHARD",
     "success": true,
-    "searchTerm": "OCD-UK"
+    "searchTerm": "OCD Action"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5109936",
     "charityName": "NORWICH AND NORFOLK OCD VOLUNTARY SUPPORT GROUP",
     "success": true,
-    "searchTerm": "OCD-UK"
+    "searchTerm": "OCD Action"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5101629",
     "charityName": "THE UK PYTHON ASSOCIATION",
     "success": true,
-    "searchTerm": "OCD-UK"
+    "searchTerm": "Humanists UK"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/268369",
@@ -3948,34 +3678,10 @@
     "searchTerm": "Humanists UK"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5101629",
-    "charityName": "THE UK PYTHON ASSOCIATION",
-    "success": true,
-    "searchTerm": "Humanists UK"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1041361",
     "charityName": "SOUTH LONDON HUMANISTS",
     "success": true,
     "searchTerm": "Humanists UK"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3940612",
-    "charityName": "HERTFORDSHIRE HEARING ADVISORY SERVICE",
-    "success": true,
-    "searchTerm": "Hearing Link"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/218341",
-    "charityName": "CORNWALL ASSOCIATION FOR DEAF AND HARD OF HEARING PEOPLE",
-    "success": true,
-    "searchTerm": "Hearing Link"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5101519",
-    "charityName": "CFD (CENTRE FOR DEAF AND HARD OF HEARING PEOPLE)",
-    "success": true,
-    "searchTerm": "Hearing Link"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3967729",
@@ -3999,13 +3705,13 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3995589",
     "charityName": "THE ZAMIR AND MUMTAZ TRUST FUND",
     "success": true,
-    "searchTerm": "Muslim Aid"
+    "searchTerm": "Islamic Relief"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/259232",
     "charityName": "MUSLIM STUDENT CHARITY",
     "success": true,
-    "searchTerm": "Muslim Aid"
+    "searchTerm": "United Muslim Relief"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5085299",
@@ -4068,38 +3774,20 @@
     "searchTerm": "English Defence League"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5173930",
-    "charityName": "Z'S DEFENCE ACADEMY",
-    "success": true,
-    "searchTerm": "English Defence League"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/251926",
     "charityName": "THE HOWARD LEAGUE FOR PENAL REFORM (INCORPORATING THE HOWARD CENTRE FOR PENOLOGY)",
     "success": true,
     "searchTerm": "English Defence League"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4037664",
-    "charityName": "CLIMATE OUTREACH AND INFORMATION NETWORK",
+    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5173930",
+    "charityName": "Z'S DEFENCE ACADEMY",
     "success": true,
-    "searchTerm": "Stop Climate Chaos"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5124765",
-    "charityName": "CLIMATE GIVING",
-    "success": true,
-    "searchTerm": "Stop Climate Chaos"
+    "searchTerm": "English Defence League"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5145116",
     "charityName": "CLIMATE ED",
-    "success": true,
-    "searchTerm": "Stop Climate Chaos"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170462",
-    "charityName": "CLIMATE CHANGE ALL CHANGE",
     "success": true,
     "searchTerm": "Stop Climate Chaos"
   },
@@ -4112,12 +3800,6 @@
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4009565",
     "charityName": "MUSLIM HANDS",
-    "success": true,
-    "searchTerm": "Muslim Hands"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/259232",
-    "charityName": "MUSLIM STUDENT CHARITY",
     "success": true,
     "searchTerm": "Muslim Hands"
   },
@@ -4164,12 +3846,6 @@
     "searchTerm": "Forces in Mind"
   },
   {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1003688",
-    "charityName": "COVENTRY AND WARWICKSHIRE MIND",
-    "success": true,
-    "searchTerm": "Forces in Mind"
-  },
-  {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4017608",
     "charityName": "ISLAMIC RELIEF (UK)",
     "success": true,
@@ -4178,12 +3854,6 @@
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/328158",
     "charityName": "ISLAMIC RELIEF WORLDWIDE",
-    "success": true,
-    "searchTerm": "Islamic Relief"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3995589",
-    "charityName": "THE ZAMIR AND MUMTAZ TRUST FUND",
     "success": true,
     "searchTerm": "Islamic Relief"
   },
@@ -4202,12 +3872,6 @@
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4027782",
     "charityName": "POLITICS AND ECONOMICS RESEARCH TRUST",
-    "success": true,
-    "searchTerm": "TaxPayers' Alliance"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/1045395",
-    "charityName": "THE GREEN ALLIANCE TRUST",
     "success": true,
     "searchTerm": "TaxPayers' Alliance"
   },
@@ -4250,12 +3914,6 @@
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/251588",
     "charityName": "THE CENTRE FOR CRIME AND JUSTICE STUDIES (ISTD)",
-    "success": true,
-    "searchTerm": "JUSTICE"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5078397",
-    "charityName": "CENTRE FOR WOMEN'S JUSTICE",
     "success": true,
     "searchTerm": "JUSTICE"
   },
@@ -4318,12 +3976,6 @@
     "charityName": "PLAN B. EARTH",
     "success": true,
     "searchTerm": "Plan International UK"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/259232",
-    "charityName": "MUSLIM STUDENT CHARITY",
-    "success": true,
-    "searchTerm": "United Muslim Relief"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4006115",
@@ -4389,7 +4041,7 @@
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3995167",
     "charityName": "CARITAS SOCIAL ACTION",
     "success": true,
-    "searchTerm": "Pesticide Action Network"
+    "searchTerm": "OCD Action"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5104317",
@@ -4408,36 +4060,6 @@
     "charityName": "DETENTION ACTION",
     "success": true,
     "searchTerm": "Pesticide Action Network"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5041412",
-    "charityName": "OCD ACTION",
-    "success": true,
-    "searchTerm": "OCD Action"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4005358",
-    "charityName": "OCD-UK",
-    "success": true,
-    "searchTerm": "OCD Action"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5098022",
-    "charityName": "ORCHARD",
-    "success": true,
-    "searchTerm": "OCD Action"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5109936",
-    "charityName": "NORWICH AND NORFOLK OCD VOLUNTARY SUPPORT GROUP",
-    "success": true,
-    "searchTerm": "OCD Action"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/3995167",
-    "charityName": "CARITAS SOCIAL ACTION",
-    "success": true,
-    "searchTerm": "OCD Action"
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5044624",
@@ -4522,24 +4144,6 @@
     "charityName": "SOLIHULL MUSLIMS COMMUNITY ASSOCIATION CIO",
     "success": true,
     "searchTerm": "British Muslims for Secular Democracy"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/220949",
-    "charityName": "THE BRITISH RED CROSS SOCIETY",
-    "success": true,
-    "searchTerm": "British Muslims for Secular Democracy"
-  },
-  {
-    "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/216032",
-    "charityName": "BLOODWISE",
-    "success": true,
-    "searchTerm": "Bloodwise"
-  },
-  {
-    "charityUrl": null,
-    "charityName": null,
-    "searchTerm": "Bloodwise",
-    "success": false
   },
   {
     "charityUrl": "https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/4024110",

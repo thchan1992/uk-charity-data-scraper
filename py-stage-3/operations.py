@@ -24,3 +24,17 @@ def numExtractor(my_str):
     if my_str == None:
         return None
     return re.sub(r'[^0-9]', '', my_str)
+
+
+def errorCounter(prop, arr):
+    count = len([p for p in arr if p[prop]['value'] ==
+                None])
+    print(prop + ": ")
+    print(count)
+    return count
+
+
+def getErrCharity(arr):
+    for i in arr:
+        if i['incomeDonationsAndLegacies']['value'] is None:
+            print(i['id']['value'])

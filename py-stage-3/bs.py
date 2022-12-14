@@ -10,6 +10,7 @@ from operations import *
 with open("charityUrlList.json", "r") as file:
     json_string = file.read()
 
+
 # Parse the JSON string and convert it to a Python list
 json_list = json.loads(json_string)
 list = []
@@ -216,11 +217,38 @@ for i in range(len(json_list)):
         website = None
 
     obj = {"name": {"value": name}, "id": {"preprocessed": id, "value": numExtractor(
-        id)}, "description": {"value": description}, "status": status, "incomeTotal": {"preprocessed": incomeTotal, "value": fromAbbreviated(incomeTotal)}, "incomeDonationsAndLegacies": {"preprocessed": donationsAndLegacies, "value": fromAbbreviated(donationsAndLegacies)}, "incomeCharitableActivities": {"preprocessed": incomeCharitableActivities, "value": fromAbbreviated(incomeCharitableActivities)}, "incomeOtherTradingActivities": {"preprocessed": incomeOtherTradingActivities, "value": fromAbbreviated(incomeOtherTradingActivities)}, "incomeInvestments": {"preprocessed": incomeInvestments, "value": fromAbbreviated(incomeInvestments)}, "incomeOther": {"preprocessed": incomeOther, "value": fromAbbreviated(incomeOther)}, "expenditureTotal": {"preprocessed": expenditureTotal, "value": fromAbbreviated(expenditureTotal)}, "expenditureRaisingFunds": {"preprocessed": expenditureRaisingFunds, "value": fromAbbreviated(expenditureRaisingFunds)}, "expenditureCharitableActivities": {"preprocessed": expenditureCharitableActivities, "value": fromAbbreviated(expenditureCharitableActivities)}, "expenditureOther": {"preprocessed": expenditureOther, "value": fromAbbreviated(expenditureOther)}, "charitableExpenditureIncomeGenerationAndGovernance": {"preprocessed": charitableExpenditureIncomeGenerationAndGovernance, "value": fromAbbreviated(charitableExpenditureIncomeGenerationAndGovernance)}, "charitableExpenditureCharitableExpenditure": {"preprocessed": charitableExpenditureCharitableExpenditure, "value": fromAbbreviated(charitableExpenditureCharitableExpenditure)}, "charitableExpenditureRetainedForFutureUse": {"preprocessed": charitableExpenditureRetainedForFutureUse, "value": fromAbbreviated(charitableExpenditureRetainedForFutureUse)}, "investmentGains": {"value": investmentGains}, "peopleEmployees": {"preprocessed": peopleEmployees, "value": numExtractor(peopleEmployees)}, "peopleTrustees": {"preprocessed": peopleTrustees, "value": numExtractor(peopleTrustees)}, "peopleVolunteers": {"preprocessed": peopleVolunteers, "value": numExtractor(peopleVolunteers)}, "fundraisingNote": {"value": fundraisingNote}, "tradingNote": {"value": tradingNote}, "trusteePaymentsNote": {"value": trusteePaymentsNote}, "website": {"value": website}, "updated": {"value": current_date.isoformat()}
+        id)}, "description": {"value": description}, "status": {"value": status}, "incomeTotal": {"preprocessed": incomeTotal, "value": fromAbbreviated(incomeTotal)}, "incomeDonationsAndLegacies": {"preprocessed": donationsAndLegacies, "value": fromAbbreviated(donationsAndLegacies)}, "incomeCharitableActivities": {"preprocessed": incomeCharitableActivities, "value": fromAbbreviated(incomeCharitableActivities)}, "incomeOtherTradingActivities": {"preprocessed": incomeOtherTradingActivities, "value": fromAbbreviated(incomeOtherTradingActivities)}, "incomeInvestments": {"preprocessed": incomeInvestments, "value": fromAbbreviated(incomeInvestments)}, "incomeOther": {"preprocessed": incomeOther, "value": fromAbbreviated(incomeOther)}, "expenditureTotal": {"preprocessed": expenditureTotal, "value": fromAbbreviated(expenditureTotal)}, "expenditureRaisingFunds": {"preprocessed": expenditureRaisingFunds, "value": fromAbbreviated(expenditureRaisingFunds)}, "expenditureCharitableActivities": {"preprocessed": expenditureCharitableActivities, "value": fromAbbreviated(expenditureCharitableActivities)}, "expenditureOther": {"preprocessed": expenditureOther, "value": fromAbbreviated(expenditureOther)}, "charitableExpenditureIncomeGenerationAndGovernance": {"preprocessed": charitableExpenditureIncomeGenerationAndGovernance, "value": fromAbbreviated(charitableExpenditureIncomeGenerationAndGovernance)}, "charitableExpenditureCharitableExpenditure": {"preprocessed": charitableExpenditureCharitableExpenditure, "value": fromAbbreviated(charitableExpenditureCharitableExpenditure)}, "charitableExpenditureRetainedForFutureUse": {"preprocessed": charitableExpenditureRetainedForFutureUse, "value": fromAbbreviated(charitableExpenditureRetainedForFutureUse)}, "investmentGains": {"value": investmentGains}, "peopleEmployees": {"preprocessed": peopleEmployees, "value": numExtractor(peopleEmployees)}, "peopleTrustees": {"preprocessed": peopleTrustees, "value": numExtractor(peopleTrustees)}, "peopleVolunteers": {"preprocessed": peopleVolunteers, "value": numExtractor(peopleVolunteers)}, "fundraisingNote": {"value": fundraisingNote}, "tradingNote": {"value": tradingNote}, "trusteePaymentsNote": {"value": trusteePaymentsNote}, "website": {"value": website}, "updated": {"value": current_date.isoformat()}
     }
 
     list.append(obj)
     print(f"{((i / len(json_list)) * 100):.0f}%")
+
+
+errorCounter("name", list)
+errorCounter("id", list)
+errorCounter("description", list)
+errorCounter("status", list)
+errorCounter("incomeTotal", list)
+errorCounter("incomeDonationsAndLegacies", list)
+errorCounter("incomeCharitableActivities", list)
+errorCounter("incomeOtherTradingActivities", list)
+errorCounter("incomeInvestments", list)
+errorCounter("incomeOther", list)
+errorCounter("expenditureTotal", list)
+errorCounter("expenditureRaisingFunds", list)
+errorCounter("expenditureCharitableActivities", list)
+errorCounter("expenditureOther", list)
+errorCounter("charitableExpenditureIncomeGenerationAndGovernance", list)
+errorCounter("charitableExpenditureCharitableExpenditure", list)
+errorCounter("charitableExpenditureRetainedForFutureUse", list)
+errorCounter("investmentGains", list)
+errorCounter("peopleEmployees", list)
+errorCounter("peopleTrustees", list)
+errorCounter("fundraisingNote", list)
+errorCounter("tradingNote", list)
+errorCounter("trusteePaymentsNote", list)
+errorCounter("website", list)
+errorCounter("updated", list)
 
 with open('data.json', 'w', encoding='utf-8') as f:
     json.dump(list, f, ensure_ascii=False, indent=4)
