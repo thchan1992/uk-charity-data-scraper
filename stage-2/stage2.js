@@ -52,14 +52,15 @@ const puppeteer = require("puppeteer");
 
   browser.close();
 
+  urlList = urlList.flat();
+  urlList = [
+    ...new Map(urlList.map((item) => [item["charityUrl"], item])).values(),
+  ];
+
   var fs = require("fs");
-  fs.writeFile(
-    "charityUrlList.json",
-    JSON.stringify(urlList.flat()),
-    function (err) {
-      if (err) {
-        console.log(err);
-      }
+  fs.writeFile("charityUrlList.json", JSON.stringify(urlList), function (err) {
+    if (err) {
+      console.log(err);
     }
-  );
+  });
 })();
