@@ -30,7 +30,6 @@ for i in range(len(json_list)):
     try:
         name = dom.xpath(
             '//*[@id="portlet_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet"]/div/div/div/div/div[1]/div/div/div[1]/div/h1/text()')[1].strip()
-        print(name)
     except:
         name = None
     try:
@@ -55,14 +54,12 @@ for i in range(len(json_list)):
         incomeTotal = dom.xpath(
             '//*[@id="_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_mainContent"]/div[3]/div[1]/h3/div')[0].text.strip()
     except:
-        incomeTotal = None
-        # try:
-        #     incomeTotal = dom.xpath(
-        #         '//*[@id="_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_mainContent"]/div[3]')[0].text.strip()
+        try:
+            incomeTotal = split_str(dom.xpath(
+                '//*[@id="_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_mainContent"]/div[3]')[0].text.strip())
 
-        # except:
-        #     print("income total - error")
-        #     incomeTotal = None
+        except:
+            incomeTotal = None
 
     try:
         donationsAndLegacies = dom.xpath(
@@ -100,7 +97,12 @@ for i in range(len(json_list)):
             '//*[@id="_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_mainContent"]/div[3]/div[2]/h3/div')[0].text.strip()
 
     except:
-        expenditureTotal = None
+        try:
+            expenditureTotal = split_str(dom.xpath(
+                '//*[@id="_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_mainContent"]/div[4]')[0].text.strip())
+
+        except:
+            expenditureTotal = None
 
     try:
         expenditureRaisingFunds = dom.xpath(
@@ -143,7 +145,6 @@ for i in range(len(json_list)):
         period = dom.xpath(
             '//*[@id="_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_mainContent"]/div[2]/div/p')[0]
     except:
-        print(period)
         period = None
 
     # try:
@@ -170,7 +171,11 @@ for i in range(len(json_list)):
         peopleTrustees = dom.xpath(
             '//*[@id="_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_mainContent"]/div[7]/div/div/div[2]/p[2]/strong')[0].text.strip()
     except:
-        peopleTrustees = None
+        try:
+            peopleTrustees = dom.xpath(
+                '//*[@id="_uk_gov_ccew_onereg_charitydetails_web_portlet_CharityDetailsPortlet_mainContent"]/div[6]/div/div/div[2]/p/strong')[0].text.strip()
+        except:
+            peopleTrustees = None
 
     try:
         peopleVolunteers = dom.xpath(
@@ -215,6 +220,7 @@ for i in range(len(json_list)):
     }
 
     list.append(obj)
+    print(f"{((i / len(json_list)) * 100):.0f}%")
 
 with open('data.json', 'w', encoding='utf-8') as f:
     json.dump(list, f, ensure_ascii=False, indent=4)
